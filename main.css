@@ -143,10 +143,12 @@ background-size: 100%;
     background: url(img/bg2.png) no-repeat center top;
     background-attachment: relative;
     background-position: center center;
-    min-height: 500px;
+    min-height: 600px;
     width: 100%;
     background-size: 100%;
     -webkit-background-size: cover;
+    position: relative; 
+    z-index: 2;
     }
 
 .gradient {
@@ -232,7 +234,14 @@ height: 60vh;
     color: white;
     width: 67%;
 }
-
+.back {
+    background-image: url(img/bg2.png);
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
 .gradient1{
     background: url(img/ribbon.png) no-repeat center top;
     height: 10px;
@@ -275,4 +284,9 @@ height: 60vh;
 
 .btn-round-pill {
     border-radius: 20px;
+}
+
+#i1{
+    position: relative; 
+    z-index: 1;
 }
